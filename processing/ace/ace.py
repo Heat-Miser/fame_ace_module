@@ -1,7 +1,7 @@
 import os
 from shutil import copyfile
 
-from fame.core.module import ProcessingModule
+from fame.core.module import ProcessingModule, ModuleInitializationError
 from fame.common.utils import tempdir
 
 from ..docker_utils import HAVE_DOCKER, docker_client
